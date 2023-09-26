@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":em-sm"
+    replace: "😀"
+  - trigger: ":em-ll"
+    replace: "😅"
+  - trigger: ":em-qq"
+    replace: "😚"

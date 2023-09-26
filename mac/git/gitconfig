@@ -1,0 +1,19 @@
+[core]
+	ignorecase = false
+	quotepath = false
+	pager = less -F -X
+	editor = vim
+	excludesfile = ~/.gitignore
+[user]
+	name = liuyun
+	email = liuyunplus@gmail.com
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8
+[i18n]
+	logoutputencoding = utf-8
+[includeIf "gitdir:~/Public/MyPro/"]
+    path = ~/Public/MyPro/.gitconfig
+[includeIf "gitdir:~/Public/MyWork/"]
+    path = ~/Public/MyWork/.gitconfig

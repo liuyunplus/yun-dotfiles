@@ -1,0 +1,12 @@
+# espanso match file
+matches:
+  - trigger: ":kconf"
+    replace: "kubectl --kubeconfig"
+  - trigger: ":kpods"
+    replace: "kubectl get pods"
+  - trigger: ":kfpods"
+    replace: "kubectl --kubeconfig $|$ get pods"
+  - trigger: ":ksvc"
+    replace: "kubectl get service"
+  - trigger: ":kfsvc"
+    replace: "kubectl --kubeconfig $|$ get service"

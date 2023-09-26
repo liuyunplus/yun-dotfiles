@@ -1,0 +1,23 @@
+Host github.com
+	User git
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_github
+
+Host gitee.com
+	User git
+	HostName gitee.com
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa_gitee
+
+Host home
+	User liuyun
+	HostName 192.168.2.18
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa_home
+
+Host tencent
+	User ubuntu
+	HostName 43.139.166.248
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa_tencent
