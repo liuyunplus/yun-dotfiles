@@ -13,14 +13,3 @@
 	encoding = utf-8
 [i18n]
 	logoutputencoding = utf-8
-[includeIf "gitdir:~/Public/MyPro/"]
-    path = ~/Public/MyPro/.gitconfig
-[includeIf "gitdir:~/Public/MyWork/"]
-    path = ~/Public/MyWork/.gitconfig
-[safe]
-	directory = /home/liuyun/Share/MyPro/yun-notes
-	directory = /home/liuyun/Share/MyWork/codes/fota-director-upload
-	directory = /home/liuyun/Share/MyWork/codes/fota-director
-	directory = /home/liuyun/Share/MyWork/codes/ota-common
-	directory = /home/liuyun/Share/MyWork/codes/firmware-appserver
-	directory = /home/liuyun/Share/yun-forum-miniapp

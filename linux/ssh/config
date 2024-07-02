@@ -1,38 +1,6 @@
 Host github.com
 	User git
     HostName github.com
-	ProxyCommand nc -v -x 127.0.0.1:7891 %h %p
+	# ProxyCommand nc -v -x 127.0.0.1:7891 %h %p
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa_github
-
-Host gitee.com
-	User git
-	HostName gitee.com
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/id_rsa_gitee
-
-Host git.labs.hosting.cerence.net
-	User git
-    HostName git.labs.hosting.cerence.net
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/id_rsa_cerence
-
-Host home
-	User liuyun
-	HostName 43.139.166.248
-	Port 8022
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/id_rsa_home
-
-Host dev
-	User centos
-	HostName 10.192.32.5
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/id_rsa_server
-
-
-Host 181
-	User root
-	HostName 10.71.20.181
-	# PreferredAuthentications publickey
-	IdentityFile ~/.ssh/10_71_20_181

@@ -30,23 +30,13 @@ config_ssh() {
 	if [ ! -f "$ssh_home/id_rsa_github" ]; then
 		ssh-keygen -q -m PEM -t rsa -b 4096 -N '' -C "liuyunplus@gmail.com" -f $ssh_home/id_rsa_github
 	fi
-	if [ ! -f "$ssh_home/id_rsa_gitee" ]; then
-		ssh-keygen -q -m PEM -t rsa -b 4096 -N '' -C "liuyunplus@gmail.com" -f $ssh_home/id_rsa_gitee
-	fi
 	echo "ssh config done."
 }
 
 config_python() {
 	rm -rf ~/.pip
 	ln -sf $path/python/pip ~/.pip
-	python3 -m venv ~/.pyenv
 	echo "python config done."
-}
-
-config_latexmkrc() {
-	rm -rf ~/.latexmkrc
-	ln -sf $path/latex/latexmkrc ~/.latexmkrc
-	echo "latex config done."
 }
 
 config_zsh
@@ -54,6 +44,5 @@ config_vim
 config_git
 config_ssh
 config_python
-config_latexmkrc
 
 echo "安装成功！"
