@@ -5,8 +5,8 @@
 	editor = vim
 	excludesfile = ~/.gitignore
 [user]
-	name = liuyun
-	email = liuyunplus@gmail.com
+	name = Leo Liu
+	email = leo.liu@haeco.com
 [gui]
 	encoding = utf-8
 [i18n "commit"]

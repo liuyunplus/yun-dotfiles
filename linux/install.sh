@@ -39,10 +39,10 @@ config_python() {
 	echo "python config done."
 }
 
-config_zsh
-config_vim
+# config_zsh
+# config_vim
 config_git
-config_ssh
-config_python
+# config_ssh
+# config_python
 
 echo "安装成功！"
