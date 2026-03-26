@@ -1,0 +1,92 @@
+snippet tmpl
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\begin{document}
+	$0
+\end{document}
+endsnippet
+
+snippet begin
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+snippet fle
+\begin{flushleft}
+	$0
+\end{flushleft}
+endsnippet
+
+snippet fri
+\begin{flushright}
+	$0
+\end{flushright}
+endsnippet
+
+snippet enum
+\begin{enumerate}
+	\item $0
+\end{enumerate}
+endsnippet
+
+snippet item
+\begin{itemize}
+	\item $0
+\end{itemize}
+endsnippet
+
+snippet \cen
+\centering
+endsnippet
+
+snippet \box
+\fbox{$0}
+endsnippet
+
+snippet table
+\begin{tabular}{|c|c|}
+	\hline
+	item1 & item2 \\\\
+	\hline$0
+\end{tabular}
+endsnippet
+
+snippet fig
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{$1}}
+	\caption{${2:$1}}
+\end{figure}
+endsnippet
+
+snippet sfig
+\begin{subfigure}[t]{0.5\textwidth}
+	$0
+\end{subfigure}
+endsnippet
+
+snippet mpa
+\begin{minipage}[t]{0.5\linewidth}
+	$0
+\end{minipage}
+endsnippet
+
+snippet plot
+\begin{axis}[
+	xmin=-10, xmax=10,
+	ymin=-10, ymax=10,
+	axis lines=middle,
+]
+	\addplot[domain=$1:$2, samples=200]{$3};
+\end{axis}
+endsnippet
+
+snippet tikz
+\begin{tikzpicture}
+	$0
+\end{tikzpicture}
+endsnippet

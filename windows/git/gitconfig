@@ -1,0 +1,15 @@
+[core]
+	ignorecase = false
+	quotepath = false
+	pager = less -F -X
+	editor = vim
+	excludesfile = ~/.gitignore
+[user]
+	name = Leo Liu
+	email = leo.liu@haeco.com
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8
+[i18n]
+	logoutputencoding = utf-8
